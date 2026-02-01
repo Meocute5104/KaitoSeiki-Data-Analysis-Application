@@ -1,6 +1,7 @@
 import plotly.express as px
 
-def process_boxplot(df, processes, spc):
+def process_boxplot(df, processes, spc): 
+    #df contains 'SP', 'SPC', and process columns, processes is a list of process column names, spc is a string, returns a boxplot figure
     melted = df.melt(
         id_vars=["SP", "SPC"],
         value_vars=processes,

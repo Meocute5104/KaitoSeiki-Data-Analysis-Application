@@ -1,6 +1,7 @@
 import plotly.graph_objects as go
 
 def radar(processes, actual_pct):
+    # processes is a list of process names, actual_pct is a list of actual percentages, returns a radar chart figure
     fig = go.Figure()
 
     fig.add_trace(go.Scatterpolar(
