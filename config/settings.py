@@ -2,7 +2,7 @@ import streamlit as st
 
 def setup_page():
     st.set_page_config(
-        page_title="Production Dashboard Pro",
+        page_title="関東精機製造分析システム",
         layout="wide"
     )
 
